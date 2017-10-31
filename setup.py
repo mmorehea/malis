@@ -10,8 +10,8 @@ include_dirs = [
     get_python_inc()
 ]
 library_dirs = [
-    os.path.join(os.path.dirname(os.path.abspath(__file__)), "malis"),
-    get_config_var("LIBDIR")
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), "malis")
+    #get_config_var("LIBDIR")
 ]
 
 # Remove the "-Wstrict-prototypes" compiler option, which isn't valid for C++.
